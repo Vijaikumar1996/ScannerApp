@@ -23,7 +23,6 @@ import Home from "./pages/Dashboard/Home";
 import PrivateRoute from "./PrivateRoute";
 import Orders from "./pages/Orders/Orders";
 import Users from "./pages/Users/Users";
-import MISReport from "./pages/Reports/MisReport";
 import HubReceive from "./pages/Scanner/HubReceive";
 import VehicleLoading from "./pages/Scanner/VehicleLoading";
 import Delivery from "./pages/Scanner/Delivery";
@@ -85,9 +84,7 @@ export default function App() {
               <Route path="/delivery" element={<Delivery />} />
               <Route path="/scanhistory" element={<ScanHistory />} />
               <Route path="/users" element={<Users />} />
-              <Route path="/orders" element={<Orders />} />
-
-              <Route path="/misreports" element={<MISReport />} />
+              <Route path="/orders" element={<Orders />} />          
 
 
 
